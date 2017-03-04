@@ -5,7 +5,7 @@ test("if", function() {
 	if (2 > 0) {
 		isPositive = true;
 	}
-	equal(__, isPositive,  'what is the value of isPositive?');
+	equal(true, isPositive,  'what is the value of isPositive?');
 });
 
 test("for", function() {
@@ -13,7 +13,7 @@ test("for", function() {
 	for (var i = 1; i <= 3; i++) {
 		counter = counter + i;
 	}
-	equal(__, counter, 'what is the value of counter?');
+	equal(12, counter, 'what is the value of counter?');
 });
 
 test("for in", function() {
